@@ -1,0 +1,227 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    background-color: grey;
+    background-image: url('assets/car-image.jpg');
+    /* margin-bottom: 2rem; */
+    /* padding-bottom: 3rem; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    margin-top: 1.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 18%;
+}
+
+.logo a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: skyblue;
+    font-family: "Lilita One", sans-serif;
+}
+
+.nav-btn {
+    background-color: rgb(77, 67, 67);
+    color: white;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    /* font-size: 10px; */
+    box-shadow: 0 2px 7px -1px white;
+}
+
+.nav-btn:hover {
+    box-shadow: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.container h1 {
+    font-size: 3.2rem;
+    margin: 1.5rem 0 1rem;
+    /* align-items: center; */
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+    
+}
+
+
+.container p {
+    font-size: 1.3rem;
+    padding: 0 10rem;
+    align-items: center;
+    color: white;
+    font-family: "Calabary", sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+.container img {
+    width: 73%;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+}
+
+.btn-head{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 1rem;
+    text-shadow: 3px 3px black;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.container-buttons button {
+    padding: .8rem 1.5rem;
+    background-color: black;
+    color: white;
+    box-shadow: 0 2px 7px -1px white;
+    border: 0 solid;
+    border-radius: 5px;
+}
+
+.container-buttons button:hover {
+    background-color: black;
+    box-shadow: none;
+}
+
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+
+.eman{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.eman h1{
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.eman i{
+    color: green;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.eman a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.husnain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.husnain h1{
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.husnain i{
+    color: green;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.husnain a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .container p{
+        padding: 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .navbar{
+        padding: 0;
+    }
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    .container p {
+        font-size: 1.5rem;
+        padding: 0 4rem;
+    }
+
+    .nav-btn{
+        padding: 1rem ;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container-buttons{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .nav-btn{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+    .logo img{
+        width: 25%;
+    }
+    .logo a{
+        font-size: 1.5rem;
+    }
+
+    .btn-head{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:300px){
+    .container-buttons{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
