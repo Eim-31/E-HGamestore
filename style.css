@@ -7,9 +7,11 @@
 body {
     height: 100vh;
     background-color: grey;
-    background-image: url('assets/car-image.jpg');
+    background-image: url('assets/Don.webp');
     /* margin-bottom: 2rem; */
     /* padding-bottom: 3rem; */
+    background-position: center center;
+    width:fit-content;
 }
 
 .navbar {
