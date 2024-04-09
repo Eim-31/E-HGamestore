@@ -11,7 +11,8 @@ body {
     /* margin-bottom: 2rem; */
     /* padding-bottom: 3rem; */
     background-position: center center;
-    width:fit-content;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .navbar {
