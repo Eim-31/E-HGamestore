@@ -99,7 +99,7 @@ body {
     color: white;
     font-family: "Ubuntu", sans-serif;
     margin-top: 1rem;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px rgb(70, 66, 66);
 }
 
 .container-buttons {
@@ -112,8 +112,7 @@ body {
 .container-buttons button {
     padding: .8rem 1.5rem;
     background-color: black;
-    color: white;
-    box-shadow: 0 2px 7px -1px white;
+    color: white;   
     border: 0 solid;
     border-radius: 5px;
 }
@@ -123,31 +122,48 @@ body {
     box-shadow: none;
 }
 
+
+.contactus{
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 2px;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    text-shadow: 3px 3px rgb(70, 66, 66);
+}
+
 .contact{
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly;
 }
 
-.eman{
+.eimaan{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: .8rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: 0 solid;
+    border-radius: 5px;
 }
 
-.eman h1{
+.eimaan h1{
     color: white;
     letter-spacing: 2px;
     font-family: "Ubuntu", sans-serif;
 }
 
-.eman i{
+.eimaan i{
     color: green;
     margin-right: 1rem;
     font-size: 1.5rem;
 }
 
-.eman a{
+.eimaan a{
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
@@ -157,6 +173,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: .8rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: 0 solid;
+    border-radius: 5px;
 }
 
 .husnain h1{
