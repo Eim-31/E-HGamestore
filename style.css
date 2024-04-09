@@ -6,8 +6,8 @@
 
 body {
     height: 100vh;
-    background-color: grey;
-    background-image: url('assets/Don.webp');
+    background-color: rgb(0, 0, 0);
+    background-image: url('assets/Wall\ Bg\ 6.webp');
     /* margin-bottom: 2rem; */
     /* padding-bottom: 3rem; */
     background-position: center center;
